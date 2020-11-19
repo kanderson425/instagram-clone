@@ -2,14 +2,33 @@
   margin: 0;
 }
 
-.App {
+.app {
   background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsLeft {
+}
+
+.app__postsRight {
+  margin-left: 10px;
 }
 
 .app__header {
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
   object-fit: contain;
 }
 
